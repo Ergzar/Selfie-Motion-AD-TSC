@@ -1,6 +1,6 @@
 # Selfie Motion Anomaly Detection & Time Series Classification
 
-This repo contains code and data for detecting anomalies and classifying individual users via short windows of smartphone motion during selfie capture.
+This repo contains code and data for detecting anomalies and classifying individual users via short windows of smartphone motion during selfie capture in the Candour ID application.
 
 ## What’s here
 - **Benchmarks**
@@ -15,7 +15,7 @@ This repo contains code and data for detecting anomalies and classifying individ
     - linear acceleration `lin_acc_` (x,y,z)  
     - gyroscope `gyro_` (x,y,z)  
     - magnetometer `magnet_` (x,y,z)
-  - Raw data (`dataset_raw/`)**
+  - Raw data (`dataset_raw/`)
     - Full-length sequences plus event timestamps in `touch/touch.json`.
-    - Additional sensors such as Android `rotationVector` and `gravity`.
+    - Additional sensors such as Android `rotationVector` and `gravity` (note varying sampling rates).
 
